@@ -1,0 +1,17 @@
+[project]
+name = "tokenizer"
+version = "0.1.0"
+description = "A simple regex-based tokenizer"
+authors = [
+    { name="Franco Malatacca", email="fraunix@gmail.com" }
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = ["pytest"]
